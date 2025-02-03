@@ -1,9 +1,37 @@
-<<<<<<< HEAD
-# monty-hall
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Monty Hall 🎭🚪
 
-## Getting Started
+### O que é o problema de Monty Hall?
+
+O problema de **Monty Hall** é um paradoxo matemático baseado em um jogo de três portas. A ideia é simples:
+
+1. Você participa de um jogo onde há **três portas**.
+2. Atrás de uma delas há um **prêmio**, e atrás das outras não há nada.
+3. Você escolhe uma das portas (sem abrir).
+4. O apresentador (que sabe onde está o prêmio) abre uma das portas restantes, revelando **sempre** uma porta vazia.
+5. Agora você tem duas opções:
+   - **Manter sua escolha inicial**.
+   - **Trocar para a outra porta que sobrou**.
+
+## Qual é a melhor estratégia?
+
+A melhor decisão é **sempre trocar de porta**.
+
+📊 **Probabilidades:**
+- Se você **mantiver sua escolha**, sua chance de ganhar é **1/3 (33,3%)**.
+- Se você **trocar de porta**, sua chance de ganhar sobe para **2/3 (66,6%)**.
+
+Isso acontece porque, no início, há **1/3 de chance de escolher o prêmio** e **2/3 de escolher uma porta vazia**. Como o apresentador sempre elimina uma porta errada, ao trocar, você aproveita esses **2/3 de chance restantes**.
+
+🎯 **Conclusão:** Sempre trocar **dobra** suas chances de ganhar!
+
+---
+
+Este projeto implementa uma simulação do Problema de Monty Hall para testar essa estratégia e visualizar os resultados. 🚀
+
+
+### Getting Started
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 First, run the development server:
 
@@ -41,4 +69,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
->>>>>>> 5bc09f8 (initial commit)
