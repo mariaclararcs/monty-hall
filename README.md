@@ -12,7 +12,7 @@ O problema de **Monty Hall** é um paradoxo matemático baseado em um jogo de tr
    - **Manter sua escolha inicial**.
    - **Trocar para a outra porta que sobrou**.
 
-## Qual é a melhor estratégia?
+### Qual é a melhor estratégia?
 
 A melhor decisão é **sempre trocar de porta**.
 
@@ -24,12 +24,11 @@ Isso acontece porque, no início, há **1/3 de chance de escolher o prêmio** e 
 
 🎯 **Conclusão:** Sempre trocar **dobra** suas chances de ganhar!
 
----
-
 Este projeto implementa uma simulação do Problema de Monty Hall para testar essa estratégia e visualizar os resultados. 🚀
 
+---
 
-### Getting Started
+## Getting Started
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
