@@ -1,5 +1,5 @@
-import PortaModel from "@/model/porta"
-import Porta from "@/components/Porta"
+import PortaModel from "@/models/door"
+import Porta from "@/components/Door"
 import { useState } from "react"
 
 

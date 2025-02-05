@@ -1,5 +1,5 @@
-import PortaModel from "@/model/porta"
-import styles from "@/styles/Porta.module.css"
+import PortaModel from "@/models/door"
+import styles from "@/styles/Door.module.css"
 
 interface PortaProps {
     value: PortaModel

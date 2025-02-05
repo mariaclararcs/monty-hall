@@ -1,4 +1,4 @@
-import styles from "@/styles/Presente.module.css"
+import styles from "@/styles/Giftbox.module.css"
 
 export default function Presente() {
     return (
