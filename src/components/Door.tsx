@@ -1,5 +1,6 @@
 import PortaModel from "@/models/door"
 import styles from "@/styles/Door.module.css"
+import Presente from "./Giftbox"
 
 interface PortaProps {
     value: PortaModel
@@ -28,7 +29,9 @@ export default function Porta(props: PortaProps){
     return (
         <div className={styles.area}>
             <div className={`${styles.frame} ${selecionada}`}>
-                {porta.aberta ? false : renderizarPorta()}
+                {porta.fechada ? 
+                    renderizarPorta() : 
+                    porta.temPresente ? <Presente /> : false}
             </div>
             <div className={styles.piso}></div>
         </div>
