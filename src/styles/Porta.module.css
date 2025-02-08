@@ -5,7 +5,7 @@
     align-items: center;
     width: var(--area-porta-largura);
     height: var(--area-porta-altura);
-    margin: 5px;
+    margin: 10px;
 }
 
 .frame {
@@ -36,9 +36,9 @@
     position: absolute;
     align-self: self-start;
     top: calc(0.45 * var(--area-porta-altura));
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 17px;
     background-color: brown;
 }
 
